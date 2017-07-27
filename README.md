@@ -1,2 +1,2 @@
 # resume
-This is my resume (built in HTML, compiled using `wkhtmltopdf`)
+This is my resume, feel free to use it as you wish!
