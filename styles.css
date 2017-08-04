@@ -29,7 +29,7 @@ body {
 }   
 .date {
   float:right;
-  font-size:.6em;
+  font-size:1em;
   margin-top:.4em;
   text-align:right;
 }
@@ -40,7 +40,7 @@ abbr, acronym{
 address{
   font-style:italic;
   color:#333;
-  font-size:.8em;
+  font-size:1em;
 }
 h1{
   width: 100%;
@@ -57,14 +57,26 @@ h2 {
   padding-left:.25em;
   border-bottom: 1px solid #999;
 }
-h3 {margin: 1em 0 0 0;}
-
+h3 {
+  margin: 1em 0 0 0;
+}
+ul {
+  max-width: 6in;
+}
+img {
+  display: block;
+  margin: auto;
+  max-width: 1in;
+}
 @media print {
   body {
     background-color:#FFF;
     border-width:0 0 0 0;
     margin:0;
-    width:100%
+    width:100%;
     max-width: 7in;
+    padding-left: 0.75in;
+    padding-right: 0.75in;
+    padding-top: 0.5in;
   }  
 }
