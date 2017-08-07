@@ -1,9 +1,10 @@
 body {
   background-color:#FFF;
-  font-family:"Open Sans", Helvetica, Arial;
+  font-family:"Lato", Helvetica, Arial;
   margin: auto;
   max-width: 7in;
   font-size:0.75em;
+  font-weight: 400;
 }
 #centered{
   width: 100%;
@@ -51,7 +52,7 @@ h1{
 h2 {
   clear:both;
   font-size: 1.5em;
-  font-weight:bold;
+  font-weight:700;
   margin-top:1em;
   font-variant: small-caps;
   padding-left:.25em;
@@ -59,13 +60,27 @@ h2 {
 }
 h3 {
   margin: 1em 0 0 0;
+  padding-left: 0.5em;
 }
 ul {
+  list-style: none;
+  padding-left: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
   max-width: 6in;
+}
+#indent {
+  padding-left: 1.5em;
+}
+ul li:before {
+  content:"- ";
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 img {
   display: block;
   margin: auto;
+  margin-bottom: 0.5in;
   max-width: 1in;
 }
 @media print {
