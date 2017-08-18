@@ -1,19 +1,19 @@
 body {
   background-color:#FFF;
   font-family:"Lato", Helvetica, Arial;
-  margin: auto;
-  max-width: 7in;
-  font-size:0.75em;
-  font-weight: 400;
+  margin:auto;
+  max-width:7in;
+  font-size:.8em;
+  font-weight:400;
 }
 #address{
-  height:5em;
+  height:4em;
   width:90%;
-  margin-left: auto;
+  margin-left:auto;
 }
 #address div{
-  text-align: center;
-  width: 30%;
+  text-align:center;
+  width:30%;
   float:left;
   border-left:1px solid #CCC;
 }
@@ -21,8 +21,8 @@ body {
   border-left:none;
 }
 #address h3{
-  border-bottom: none;
-  margin-top: 0;
+  border-bottom:none;
+  margin-top:0;
 }   
 .date {
   float:right;
@@ -40,44 +40,45 @@ address{
   font-size:1em;
 }
 h1{
-  width: 100%;
-  text-align: center;
+  width:100%;
+  text-align:center;
   font-size:2em;
-  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-family:Helvetica, Verdana, Arial, sans-serif;
 }
 h2 {
   clear:both;
-  font-size: 1.5em;
+  font-size:1.5em;
   font-weight:700;
   margin-top:1em;
-  font-variant: small-caps;
+  margin-bottom:0em;
+  font-variant:small-caps;
   padding-left:.25em;
-  border-bottom: 1px solid #999;
+  border-bottom:1px solid #999;
 }
 h3 {
-  margin: 1em 0 0 0;
-  padding-left: 0.5em;
+  margin:1em 0 0 0;
+  padding-left:0.5em;
 }
 ul {
-  list-style: none;
-  padding-left: 2em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  max-width: 6in;
+  list-style:none;
+  padding-left:2em;
+  margin-top:0.5em;
+  margin-bottom:0.5em;
+  max-width:6in;
 }
 #indent {
-  padding-left: 1.5em;
+  padding-left:1.5em;
 }
 ul li:before {
   content:"- ";
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
 }
 img {
-  display: block;
-  margin: auto;
-  margin-bottom: 0.5in;
-  max-width: 1in;
+  display:block;
+  margin:auto;
+  margin-bottom:0.5in;
+  max-width:1in;
 }
 @media print {
   body {
@@ -85,9 +86,9 @@ img {
     border-width:0 0 0 0;
     margin:0;
     width:100%;
-    max-width: 7in;
-    padding-left: 0.75in;
-    padding-right: 0.75in;
-    padding-top: 0.5in;
+    max-width:7in;
+    padding-left:0.75in;
+    padding-right:0.75in;
+    padding-top:0.5in;
   }  
 }
