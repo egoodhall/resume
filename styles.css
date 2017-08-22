@@ -27,8 +27,21 @@ body {
 .date {
   float:right;
   font-size:1em;
-  margin-top:.4em;
+  margin-top:.2em;
   text-align:right;
+}
+.date-lg {
+  float:right;
+  font-size:1em;
+  margin-top:0.5em;
+  text-align:right;
+}
+.tools {
+  margin-top:0.5em;
+  padding-left:1.5em;
+}
+.indent {
+  padding-left:1.5em;
 }
 abbr, acronym{
   border-bottom:1px dotted #333;
@@ -56,22 +69,36 @@ h2 {
   border-bottom:1px solid #999;
 }
 h3 {
-  margin:1em 0 0 0;
+  margin:0.5em 0 0 0;
   padding-left:0.5em;
+}
+h4 {
+  margin-top:0.2em;
+  margin-bottom:0.2em;
+  margin-right: auto;
+  padding-left: 0.5em;
 }
 ul {
   list-style:none;
   padding-left:2em;
-  margin-top:0.5em;
+  margin-top:0.2em;
   margin-bottom:0.5em;
   max-width:6in;
 }
-#indent {
-  padding-left:1.5em;
+ul li ul {
+  list-style:none;
+  padding-left:1em;
+  margin-top:0.1em;
+  margin-bottom:0.1em;
+  max-width:6in;
+}
+ul li {
+  padding-left: 12px;
+  text-indent: -12px;
 }
 ul li:before {
   content:"- ";
-  padding-top:0.5em;
+  padding-top:0.2em;
   padding-bottom:0.5em;
 }
 img {
@@ -80,6 +107,7 @@ img {
   margin-bottom:0.5in;
   max-width:1in;
 }
+
 @media print {
   body {
     background-color:#FFF;
