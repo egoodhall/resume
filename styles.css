@@ -1,9 +1,9 @@
 body {
   background-color:#FFF;
-  font-family:"Lato", Helvetica, Arial;
+  font-family:"Roboto", Helvetica, Arial;
   margin:auto;
   max-width:7in;
-  font-size:.8em;
+  font-size:.84em;
   font-weight:400;
 }
 #address{
@@ -22,22 +22,22 @@ body {
 }
 #address h3{
   border-bottom:none;
-  margin-top:0;
+  margin-top:0.3em;
 }   
 .date {
   float:right;
   font-size:1em;
-  margin-top:.2em;
+  margin-top:0.3em;
   text-align:right;
 }
 .date-lg {
   float:right;
   font-size:1em;
-  margin-top:0.5em;
+  margin-top:0.3em;
   text-align:right;
 }
 .tools {
-  margin-top:0.5em;
+  margin-top:0.3em;
   padding-left:1.5em;
 }
 .indent {
@@ -62,49 +62,55 @@ h2 {
   clear:both;
   font-size:1.5em;
   font-weight:700;
-  margin-top:1em;
-  margin-bottom:0em;
+  margin-top:0.3em;
+  margin-bottom:0.3em;
   font-variant:small-caps;
   padding-left:.25em;
-  border-bottom:1px solid #999;
+  border-bottom:2px solid #999;
 }
 h3 {
-  margin:0.5em 0 0 0;
+  margin:0.7em 0 0 0;
   padding-left:0.5em;
 }
 h4 {
-  margin-top:0.2em;
-  margin-bottom:0.2em;
+  margin-top:0.5em;
+  margin-bottom:0.3em;
   margin-right: auto;
   padding-left: 0.5em;
 }
 ul {
-  list-style:none;
-  padding-left:2em;
-  margin-top:0.2em;
-  margin-bottom:0.5em;
+  /*list-style:none;*/
+  padding-left:3em;
   max-width:6in;
-}
-ul li ul {
-  list-style:none;
-  padding-left:1em;
-  margin-top:0.1em;
-  margin-bottom:0.1em;
-  max-width:6in;
+  margin-top:0.3em;
+  margin-bottom:0.3em;
 }
 ul li {
   padding-left: 12px;
   text-indent: -12px;
+  margin-top:0.3em;
+  margin-bottom:0.3em;
 }
 ul li:before {
-  content:"- ";
-  padding-top:0.2em;
-  padding-bottom:0.5em;
+  /*content:"- ";*/
+  padding-top:0.5em;
+  padding-bottom:0em;
+}
+ul li ul {
+  /*list-style:none;*/
+  padding-left:0em;
+  margin-top:0.3em;
+  margin-bottom:0.3em;
+  max-width:6in;
+}
+ul li ul li {
+  margin-top:0.3em;
+  margin-bottom:0.3em;
 }
 img {
   display:block;
   margin:auto;
-  margin-bottom:0.5in;
+  margin-bottom:0.3em;
   max-width:1in;
 }
 
