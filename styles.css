@@ -13,18 +13,24 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 0.5in;
-  padding-right: 0.75in;
+  padding-right: 0.5in;
   width: 8.5in;
-  height: 11in;
 }
 
-body>header>h1 {
+body>header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+header>h1 {
   text-align: center;
-  margin-block-start: 0.5rem;
+  margin-block-start: 0rem;
   margin-block-end: 0.5rem;
 }
 
-body>address {
+address {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -37,11 +43,12 @@ address>div {
 }
 
 address>div:first-of-type {
+  text-align: right;
   border-left: none;
 }
 
 address>div>h3 {
-  text-align: center;
+  text-align: right;
   font-style: normal;
   margin-block-start: 0.25rem;
   margin-block-end: 0.5rem;
@@ -54,9 +61,12 @@ p {
 
 h2 {
   width: 100%;
-  border-bottom: 2px solid #888;
   margin-block-start: 0.25rem;
   margin-block-end: 0.25rem;
+}
+
+body>section>header {
+  border-bottom: 2px solid #888;
 }
 
 h3 {
@@ -66,6 +76,9 @@ h3 {
 
 section {
   margin-top: 0.5rem;
+}
+
+section>section {
   margin-left: 1rem;
 }
 
@@ -73,13 +86,28 @@ section>header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  text-align: center;
   justify-content: space-between;
+}
+
+section>section>header {
   margin-left: -1rem;
 }
 
 section>p {
   margin-left: -1rem;
+  max-width: 7in;
+}
+
+section>ul {
+  max-width: 7in;
+}
+
+time {
+  font-style: italic;
+}
+
+section>ul>li>ul:last-of-type {
+  margin-bottom: 0.25rem;
 }
 
 ul,li {
